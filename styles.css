@@ -1,0 +1,402 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0px 50px 0px 100px;
+}
+
+.custom {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  height: 60px;
+  align-content: center;
+}
+
+.nav-link:hover {
+  color: rgb(0, 175, 64);
+  background-color: rgba(0, 175, 64, 0.15);
+  border-bottom: 3px solid;
+  transition: 0.1s ease;
+}
+
+.lion-title h1 {
+  width: 400px;
+  font-weight: 700;
+  font-size: 57px;
+  color: #ffffff;
+  margin-left: 140px;
+  line-height: 69.48px;
+  position: relative;
+  top: 100px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.cards {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 256px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+}
+
+.contentbox .top {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.top img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.contentbox p {
+  padding: 5px;
+  color: #343434;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.contentbox p img {
+  margin-right: 6px;
+}
+
+.sub {
+  color: #3D3D3D;
+  margin: 50px 0px 30px 0px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.event {
+  padding: 0;
+  height: 100vh;
+}
+
+.event-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view {
+  background-color: #00AE42;
+  font-weight: 400;
+  color: #ffffff;
+  height: 45px;
+  width: 90px;
+  border-radius: 40px;
+}
+
+.view:hover {
+  background-color: #005d24;
+  color: #ffffff;
+}
+
+.ev-comp {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+.ev-comp p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0%;
+}
+
+.ev-cont h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  width: 320px;
+  margin: 10px 30px;
+  padding-right: 20px;
+}
+
+.ev-cont p {
+  padding: 0px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  overflow: hidden;
+}
+
+.more {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more img {
+  width: 30px;
+  padding: 10px;
+  border-radius: 60%;
+  background-color: #E0E0E0;
+}
+
+.heading {
+  margin: 50px 0px 30px 0px;
+  font-size: 31px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animal {
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+  background-color: #00AE42;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.animal:hover {
+  background-color: #005d24;
+  color: #ffffff;
+}
+
+.animal-comp img {
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.animal-comp img:hover {
+  transform: scale(1.05);
+}
+
+.ev-cont .an-t {
+  color: #000000;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.items {
+  margin: 0px 100px 0px 100px;
+}
+
+.blue {
+  background-image: url(assets/background-img.png);
+}
+
+.tlink {
+  color: rgba(255, 255, 255, 0.53);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+}
+
+.tlink:hover {
+  color: #ffffff;
+  border-bottom: #ffffff solid;
+  transition: 0.1s ease;
+}
+
+.items img {
+  margin-right: 10px;
+}
+
+.bg-item img {
+  margin-top: 20px;
+  width: 320px;
+  height: 180px;
+}
+
+.bg-item h5 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.bg-item p {
+  width: 320px;
+  text-align: justify;
+  height: 60px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textbox {
+  padding: 0px;
+  width: 1100px;
+  height: 360px;
+  background-color: #00AE42;
+  margin: 150px 30px;
+  border-radius: 30px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox img {
+  margin-top: -20px;
+}
+
+.textbox .photo p {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 30px 30px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #FFFFFF;
+}
+
+.name {
+  margin: 40px 30px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.name h4 {
+  font-size: 24px;
+}
+
+.name p {
+  font-size: 16px;
+}
+
+.part {
+  background-image: url(assets/background2.jpg);
+}
+
+.circle {
+  justify-content: center;
+  margin-left: 50px;
+  width: 550px;
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #1A4311;
+}
+.circle h3 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 37.79px;
+  text-align: left;
+}
+.circle p {
+  width: 370px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.circle button {
+  align-items: center;
+  border: 1px solid #00AE42;
+  border-radius: 20px;
+  color: #00AE42;
+}
+.circle button:hover {
+  background-color: #00AE42;
+  color: #FFFFFF;
+}
+.circle button:hover .pic {
+  filter: contrast(0%) brightness(1000);
+}
+.circle .pic {
+  width: 15px;
+  margin-left: 10px;
+}/*# sourceMappingURL=styles.css.map */
