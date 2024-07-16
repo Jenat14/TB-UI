@@ -91,8 +91,14 @@ body {
 }
 
 .cards {
+  position: relative;
+  top: 150px;
   margin-top: 40px;
   width: 100%;
+}
+
+.event-cards {
+  margin-top: 150px;
 }
 
 .contentbox {
@@ -358,13 +364,14 @@ body {
 
 .part {
   background-image: url(assets/background2.jpg);
+  padding-bottom: 50px;
 }
 
 .circle {
   justify-content: center;
   margin-left: 50px;
-  width: 550px;
-  height: 550px;
+  width: 600px;
+  height: 600px;
   background-color: #ffffff;
   border-radius: 50%;
   color: #1A4311;
@@ -399,4 +406,49 @@ body {
 .circle .pic {
   width: 15px;
   margin-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.b-details {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  background-color: #F4F9FF;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.b-details .b-items {
+  width: 300px;
+  height: 130px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.b-details .b-items div {
+  display: flex;
+  align-items: center;
+}
+.b-details .b-items p {
+  margin-left: 4px;
+  font-size: 14px;
+}
+.b-details .b-items h3 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.b-details .b-blue {
+  background-color: rgba(45, 113, 197, 0.1215686275);
+  border: 1px solid #5784BB;
+  color: #2D71C5;
+}
+.b-details .b-green {
+  border: 1px solid #6BBB57;
+  color: #6BBB57;
 }/*# sourceMappingURL=styles.css.map */
