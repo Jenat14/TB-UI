@@ -367,7 +367,15 @@ body {
   padding-bottom: 50px;
 }
 
+.grid-container {
+  display: grid;
+  align-items: center;
+  margin-right: 30px;
+}
+
 .circle {
+  grid-column: 1;
+  position: relative;
   justify-content: center;
   margin-left: 50px;
   width: 600px;
@@ -392,6 +400,7 @@ body {
 }
 .circle button {
   align-items: center;
+  margin-top: 30px;
   border: 1px solid #00AE42;
   border-radius: 20px;
   color: #00AE42;
@@ -408,6 +417,26 @@ body {
   margin-left: 10px;
 }
 
+.img-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  gap: 20px;
+}
+
+.img2 {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: space-between;
+}
+.img2 img {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -416,7 +445,6 @@ body {
 .b-details {
   display: flex;
   justify-content: center;
-  margin-top: -50px;
   background-color: #F4F9FF;
   width: -moz-fit-content;
   width: fit-content;
