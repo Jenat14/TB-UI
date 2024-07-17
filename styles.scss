@@ -432,3 +432,22 @@ body{
         font-weight: 400;
     }
 }
+.footer{
+    background-color: #005CB9;
+    padding: 10px;
+    .part1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    hr{
+        color:#ffffff;
+    }
+    .copyright{
+        color:#ffffff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+
+    }
+}

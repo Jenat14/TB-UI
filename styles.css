@@ -533,4 +533,23 @@ body {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
+}
+
+.footer {
+  background-color: #005CB9;
+  padding: 10px;
+}
+.footer .part1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer hr {
+  color: #ffffff;
+}
+.footer .copyright {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }/*# sourceMappingURL=styles.css.map */
