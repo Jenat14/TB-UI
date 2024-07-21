@@ -438,6 +438,27 @@ body{
     .part1{
         display: flex;
         justify-content: space-evenly;
+        color: #ffffff;
+        text-decoration: none;
+        h4{
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .sec2{
+            width: 200px;
+            li{
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0.02em;
+                line-height:25px;
+                margin-bottom: 20px;
+            }
+            a{
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
     }
     hr{
         color:#ffffff;

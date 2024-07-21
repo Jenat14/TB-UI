@@ -542,6 +542,27 @@ body {
 .footer .part1 {
   display: flex;
   justify-content: space-evenly;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer .part1 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer .part1 .sec2 {
+  width: 200px;
+}
+.footer .part1 .sec2 li {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.footer .part1 .sec2 a {
+  color: #ffffff;
+  text-decoration: none;
 }
 .footer hr {
   color: #ffffff;
