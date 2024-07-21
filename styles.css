@@ -450,7 +450,7 @@ body {
   width: fit-content;
 }
 .b-details .b-items {
-  width: 300px;
+  width: 100%;
   height: 130px;
   padding: 20px;
   display: flex;
@@ -544,6 +544,7 @@ body {
   justify-content: space-evenly;
   color: #ffffff;
   text-decoration: none;
+  margin-top: 50px;
 }
 .footer .part1 h4 {
   font-size: 20px;
@@ -563,6 +564,28 @@ body {
 .footer .part1 .sec2 a {
   color: #ffffff;
   text-decoration: none;
+}
+.footer .part1 .sec3 div {
+  display: flex;
+  gap: 10px;
+}
+.footer .part1 .sec3 div .logo {
+  background-color: rgba(211, 211, 211, 0.2705882353);
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.footer .part1 .sec4 .partner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+}
+.footer .part1 .sec4 .partner .img1, .footer .part1 .sec4 .partner .img2, .footer .part1 .sec4 .partner .img3, .footer .part1 .sec4 .partner .img4 {
+  width: auto;
+  max-height: 60px;
+  padding: 0;
+  margin-bottom: 10px;
 }
 .footer hr {
   color: #ffffff;
