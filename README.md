@@ -1,0 +1,1 @@
+This project is a user interface (UI) created to master HTML, CSS, and Bootstrap. The focus is on building a visually appealing design using these technologies, with an emphasis on understanding Bootstrap's components and utilities, as well as HTML and CSS. 
